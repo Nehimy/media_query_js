@@ -1,7 +1,9 @@
 /*
    El valor border-box en el box-sizing hace que el padding y el border pasen a formar parte
    del cálculo del ancho de la caja.
- */
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Noto+Sans+SC:wght@700&display=swap');
 
 *{
   margin: 0px;
@@ -9,3 +11,35 @@
   box-sizing: border-box;
 }
 
+body {
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+header {
+    width: 100vw;
+    background: #ff66c3;
+    height: 150px;
+    display: grid;
+    place-content: end;
+}
+
+nav {
+    width: 100vw;
+    height: auto;
+    background: #13d5b8;
+    padding: 8px;
+}
+
+ul {
+    /* display: block; */
+}
+
+.first-li {
+   border-left: 1px solid aliceblue;
+}
+li {
+    display: inline;
+    border-right: 1px solid aliceblue;
+    padding: 0px 8px;
+}
