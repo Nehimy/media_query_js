@@ -1,5 +1,6 @@
 
-// Creamos el querie
+// Creamos el query
+
 const screen = window.matchMedia("(max-width: 1000px)")
 
 // función que escucha los cambios de estado

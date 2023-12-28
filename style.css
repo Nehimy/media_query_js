@@ -16,10 +16,11 @@ body {
     font-family: 'Fredoka', sans-serif;
     font-family: 'Noto Sans SC', sans-serif;
 }
+
 header {
     width: 100vw;
     background: #ff66c3;
-    height: 150px;
+    /* height: 150px; */
     display: grid;
     place-content: end;
 }
@@ -31,13 +32,11 @@ nav {
     padding: 8px;
 }
 
-ul {
-    /* display: block; */
-}
 
 .first-li {
    border-left: 1px solid aliceblue;
 }
+
 li {
     display: inline;
     border-right: 1px solid aliceblue;
